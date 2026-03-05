@@ -1,11 +1,15 @@
+from gestion_empanadas import cargar_info, guardar_info
 # Función para agregar una empanada
 
-def agregar_empanada(info, nombre, stock = None):
-    if nombre in info:
-        print("Este tipo de empanada ya esta en el inventario.")
-        return
-    
-    info[nombre] = {} if stock is None else 0
-    print("herramienta agregada exitosamente.")
+def agregar_empanada(nombre, ingredientes, disponibilidad, sabor):
+    empanadas = cargar_info()
+
+    empanadas[nombre] = {
+        "ingredientes": ingredientes,
+        "disponibilidad": disponibilidad,
+        "sabor": sabor
+    }
+
+    guardar_info(empanadas)
 
 #__________________________________________________________________
