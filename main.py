@@ -1,5 +1,6 @@
 from agregar_empanada import agregar_empanada
 from  act_empanada import actualizar_empanada
+from eliminar_empanada import eliminar_empanada
 def mostrar_menu():
     print("\n" + "="*40)
     print("        SISTEMA DE EMPANADAS")
@@ -22,7 +23,7 @@ def main():
         elif opcion == "3":
             actualizar_empanada()
         elif opcion == "4":
-            pass
+            eliminar_empanada()
         elif opcion == "5":
             print("¡Hasta luego!")
             break
