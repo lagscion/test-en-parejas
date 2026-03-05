@@ -1,0 +1,11 @@
+{
+    "sapo": {
+        "ingredientes": [
+            "si",
+            "si",
+            "si"
+        ],
+        "disponibilidad": true,
+        "sabor": "no"
+    }
+}
