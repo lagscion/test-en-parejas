@@ -1,7 +1,7 @@
 from gestion_empanadas import cargar_info, guardar_info
 # Función para agregar una empanada
 
-def agregar_empanada(nombre, ingredientes, disponibilidad, sabor):
+def agregar_empanada():
     empanadas = cargar_info()
 
     nombre = input("Nombre de la empanada: ")
