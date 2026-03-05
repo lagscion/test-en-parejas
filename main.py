@@ -1,5 +1,6 @@
 from agregar_empanada import agregar_empanada
 from  act_empanada import actualizar_empanada
+from listar import listar_empanadas
 def mostrar_menu():
     print("\n" + "="*40)
     print("        SISTEMA DE EMPANADAS")
@@ -16,7 +17,7 @@ def main():
         mostrar_menu()
         opcion = input("Seleccione una opción: ")
         if opcion == "1":
-            pass
+            listar_empanadas()
         elif opcion == "2":
             agregar_empanada()
         elif opcion == "3":
