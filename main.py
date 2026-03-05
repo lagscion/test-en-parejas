@@ -1,0 +1,10 @@
+def mostrar_menu():
+    print("\n" + "="*40)
+    print("        SISTEMA DE EMPANADAS")
+    print("="*40)
+    print("1. 🥟 Listar empanadas")
+    print("2. ➕ Agregar empanada")
+    print("3. ✏️  Editar empanada")
+    print("4. ❌ Eliminar empanada")
+    print("5. 🚪 Salir")
+    print("="*40)
